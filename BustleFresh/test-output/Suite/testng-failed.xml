@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BustleGroup.Test.ActivityTest">
+        <methods>
+          <include name="viewScreenshotsOfUser"/>
+          <include name="viewDetailsOfUser"/>
+          <include name="activitytest1"/>
+          <include name="driveninitialisation"/>
+        </methods>
+      </class> <!-- BustleGroup.Test.ActivityTest -->
+      <class name="BustleGroup.Test.MembersPageTest">
+        <methods>
+          <include name="assignProject"/>
+          <include name="AddMembers"/>
+          <include name="driveninitialisation"/>
+        </methods>
+      </class> <!-- BustleGroup.Test.MembersPageTest -->
+      <class name="BustleGroup.Test.ProjectsTest">
+        <methods>
+          <include name="ProjectsTest1"/>
+          <include name="driveninitialisation"/>
+        </methods>
+      </class> <!-- BustleGroup.Test.ProjectsTest -->
+      <class name="BustleGroup.Test.TotalHoursofWork">
+        <methods>
+          <include name="TotalHours"/>
+          <include name="driveninitialisation"/>
+        </methods>
+      </class> <!-- BustleGroup.Test.TotalHoursofWork -->
+      <class name="BustleGroup.Test.SignUpTest">
+        <methods>
+          <include name="SignUp"/>
+          <include name="driveninitialisation"/>
+        </methods>
+      </class> <!-- BustleGroup.Test.SignUpTest -->
+      <class name="BustleGroup.Test.ForgotPasswordPageTest">
+        <methods>
+          <include name="ForgotPassword"/>
+          <include name="driveninitialisation"/>
+        </methods>
+      </class> <!-- BustleGroup.Test.ForgotPasswordPageTest -->
+      <class name="BustleGroup.Test.CreateOrganisationTest">
+        <methods>
+          <include name="CreateOrganisation"/>
+          <include name="driveninitialisation"/>
+        </methods>
+      </class> <!-- BustleGroup.Test.CreateOrganisationTest -->
+      <class name="BustleGroup.Test.TaskPageTest">
+        <methods>
+          <include name="AddTask1"/>
+          <include name="driveninitialisation"/>
+        </methods>
+      </class> <!-- BustleGroup.Test.TaskPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
